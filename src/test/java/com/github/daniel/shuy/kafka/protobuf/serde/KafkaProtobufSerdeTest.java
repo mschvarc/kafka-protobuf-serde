@@ -36,6 +36,67 @@ public class KafkaProtobufSerdeTest {
                 .setDbl(Double.MAX_VALUE)
                 .build();
         stream(input, output, Proto2Message.parser());
+        
+        
+        Assert.assertEquals(outputValue, input);
+        Assert.assertEquals(outputValue, input);
+        Assert.assertEquals(outputValue, input);
+        Assert.assertEquals(outputValue, input);
+        Assert.assertEquals(outputValue, input);
+        Assert.assertEquals(outputValue, input);
+        Assert.assertEquals(outputValue, input);
+        Assert.assertEquals(outputValue, input);
+        Assert.assertEquals(outputValue, input);
+        Assert.assertEquals(outputValue, input);
+        Assert.assertEquals(outputValue, input);
+        Assert.assertEquals(outputValue, input);
+        Assert.assertEquals(outputValue, input);
+        Assert.assertEquals(outputValue, input);
+        Assert.assertEquals(outputValue, input);
+        Assert.assertEquals(outputValue, input);
+        Assert.assertEquals(outputValue, input);
+        Assert.assertEquals(outputValue, input);
+        
+        Assert.assertEquals(outputValue, input);
+        Assert.assertEquals(outputValue, input);
+        Assert.assertEquals(outputValue, input);
+        Assert.assertEquals(outputValue, input);
+        Assert.assertEquals(outputValue, input);
+        Assert.assertEquals(outputValue, input);
+        Assert.assertEquals(outputValue, input);
+        Assert.assertEquals(outputValue, input);
+        Assert.assertEquals(outputValue, input);
+        
+        Assert.assertEquals(outputValue, input);
+        Assert.assertEquals(outputValue, input);
+        Assert.assertEquals(outputValue, input);
+        Assert.assertEquals(outputValue, input);
+        Assert.assertEquals(outputValue, input);
+        Assert.assertEquals(outputValue, input);
+        Assert.assertEquals(outputValue, input);
+        Assert.assertEquals(outputValue, input);
+        Assert.assertEquals(outputValue, input);
+        
+        Assert.assertEquals(outputValue, input);
+        Assert.assertEquals(outputValue, input);
+        Assert.assertEquals(outputValue, input);
+        Assert.assertEquals(outputValue, input);
+        Assert.assertEquals(outputValue, input);
+        Assert.assertEquals(outputValue, input);
+        Assert.assertEquals(outputValue, input);
+        Assert.assertEquals(outputValue, input);
+        Assert.assertEquals(outputValue, input);
+        
+        Assert.assertEquals(outputValue, input);
+        Assert.assertEquals(outputValue, input);
+        Assert.assertEquals(outputValue, input);
+        Assert.assertEquals(outputValue, input);
+        Assert.assertEquals(outputValue, input);
+        Assert.assertEquals(outputValue, input);
+        Assert.assertEquals(outputValue, input);
+        Assert.assertEquals(outputValue, input);
+        Assert.assertEquals(outputValue, input);
+        
     }
 
     @Test
